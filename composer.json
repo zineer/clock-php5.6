@@ -1,5 +1,5 @@
 {
-    "name": "kreait/clock",
+    "name": "nathanfeitoza/clock-php5.6",
     "description": "A PHP 7.0 compatible clock abstraction",
     "type": "library",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Jérôme Gamez",
             "email": "jerome@gamez.name"
+        },
+        {
+            "name": "Nathan Feitoza",
+            "homepage": "https://github.com/nathanfeitoza"
         }
     ],
     "require": {
