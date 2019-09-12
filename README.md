@@ -2,16 +2,16 @@
 
 A PHP 7.0 compatible clock abstraction.
 
-[![Current version](https://img.shields.io/packagist/v/kreait/clock.svg)](https://packagist.org/packages/kreait/clock)
-[![Supported PHP version](https://img.shields.io/packagist/php-v/kreait/clock.svg)]()
+[![Current version](https://img.shields.io/packagist/v/nathanfeitoza/clock-php5.6.svg)](https://packagist.org/packages/nathanfeitoza/clock-php5.6)
+[![Supported PHP version](https://img.shields.io/packagist/php-v/nathanfeitoza/clock-php5.6.svg)]()
 [![Discord](https://img.shields.io/discord/523866370778333184.svg?color=7289da&logo=discord)](https://discord.gg/nbgVfty)
 
-[![Build Status](https://travis-ci.com/kreait/clock-php.svg?branch=master)](https://travis-ci.com/kreait/clock-php)
+[![Build Status](https://travis-ci.com/nathanfeitoza/clock-php5.6-php.svg?branch=master)](https://travis-ci.com/nathanfeitoza/clock-php5.6-php)
 
 ## Installation
 
 ```bash
-composer require kreait/clock
+composer require nathanfeitoza/clock-php5.6
 ```
 
 ## Basic usage
@@ -35,6 +35,8 @@ var_dump($systemClock->now());
 ```
 
 ## Credits
+
+This project is a fork of kreait/clock-php, and below is the description credits of the original author:
 
 This project exists because [lcobucci/clock](https://github.com/lcobucci/clock) (rightfully)
 doesn't support PHP 7.0 anymore, but we need a clock in [kreait/firebase-php 4.x](https://github.com/kreait/firebase-php)
